@@ -1,6 +1,6 @@
 # We have 9 initial milestones:
 
-- [ ] A model capable of detecting word level errors in realtime running on an average accelerator.
+- [ ] A model capable of detecting word level errors in realtime, regardless of changes in tempo and pitch, running on an average accelerator.
 - [ ] A dataset with at least 100 Qara', the whole Holly Quran segmented into <=30s segments with their reference text.
 - [ ] Start user testing when we get the `WER` below `5%`
 - [ ] maybe a paper?
