@@ -1,16 +1,16 @@
 # We have 9 initial milestones:
 
-- [ ] A model capable of detecting word level errors in realtime, regardless of changes in tempo and pitch, running on an average accelerator.
-- [ ] A dataset with at least 100 Qara', the whole Holly Quran segmented into <=30s segments with their reference text.
+- [ ] A model capable of detecting word-level errors in real-time, regardless of changes in tempo and pitch, running on an average accelerator.
+- [ ] A dataset with at least 100 sheikhs, the whole Holly Quran segmented into <=30s segments with their reference text.
 - [ ] Start user testing when we get the `WER` below `5%`
 - [ ] maybe a paper?
 - [ ] Make that model deployable on average mobile devices
-- [ ] A model capable of of detecting Tajwid level errors in realtime running on an average accelerator
+- [ ] A model capable of detecting Tajwid level errors in real-time running on an average accelerator
 - [ ] Make that model deployable on average mobile devices
 - [ ] The undergrad thesis
 - [ ] The final paper
 
-I believe we will end up with more steps in-between but we will figure it as we go إن شاء الله.
+I believe we will end up with more steps in-between but we will figure it out as we go إن شاء الله.
 
 # What we have tried so far:
 

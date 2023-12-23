@@ -1,3 +1,17 @@
 {
-  "cSpell.words": ["Hudhaify", "Husary", "Minshawy", "Murattal"]
+  "cSpell.words": [
+    "Hudhaify",
+    "Husary",
+    "Minshawy",
+    "Murattal",
+    "WER",
+    "openai",
+    "openai-whisper"
+  ],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ]
 }
