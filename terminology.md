@@ -1,6 +1,11 @@
 # Terminology used inside the ElGarash
 
-|Correct word | Arabic |definition                                        |wrong forms|
+# Project core terminology
+
+
+> [!WARNING]  
+> Don't use one of synonyms, stick to the selected term.
+|Selected term | Arabic |definition                                        |synonyms|
 |-------------|--------:|-------------------------------------------------|-----------------|
 |Ayah         | أية     |  A verse in the Holy Quran                       |aya  |
 |Sorah        | سورة   |  Any of the 114 complete parts of the Holy Quran | sora, surah, sura|
