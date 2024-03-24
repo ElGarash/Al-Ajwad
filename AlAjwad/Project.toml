@@ -1,0 +1,16 @@
+name = "AlAjwad"
+uuid = "c51d6e4d-e8ba-4751-954b-f7b9b0ed0b55"
+authors = ["Abdulrhmn Ghanem <abdoghanem160@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+StringDistances = "88034a9c-02f8-509d-84a9-84ec65e18404"
+
+[compat]
+julia = "1.10"
