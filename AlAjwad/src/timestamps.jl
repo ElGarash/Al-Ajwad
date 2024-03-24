@@ -25,11 +25,11 @@ function load_data()
     file_path = sheikhs[1]
     sheikh = chopsuffix(file_path, ".json")
     
-	JSON.parsefile(joinpath(data_path, file_path)), CSV.read(joinpath(root, "ayah_text.csv"), DataFrame), JSON.parsefile(joinpath(data_path, "quran-com_timestamps.json"))[sheikh], sheikh
+	JSON.parsefile(joinpath(data_path, file_path)), CSV.read(joinpath(root, "ayah_text.csv"), DataFrame), sheikh
 end
 
 # ╔═╡ fd680acd-3e93-45b7-9725-e8ad0a638c44
-transcription, ayahs_text, quran_com, sheikh = load_data();
+transcription, ayahs_text, sheikh = load_data();
 
 # ╔═╡ b5afda27-fb91-44c6-b3fc-f07fc5dede70
 begin
