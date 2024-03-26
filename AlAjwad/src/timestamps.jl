@@ -21,7 +21,7 @@ using JSON, CSV, DataFrames, StringDistances, Printf, IterTools
 function load_data()
 	root = joinpath("..", "..")
     data_path = joinpath(root, "timestamps")
-	sheikhs = sort!(readdir(data_path))[1:end-1]
+	sheikhs = readdir(data_path)
     file_path = sheikhs[1]
     sheikh = chopsuffix(file_path, ".json")
     
@@ -83,7 +83,7 @@ begin
         Dict(
             "start" => segments[1]["start"],
             "end" => segments[end]["end"],
-            "text" => strip(replace(join((strip(s["text"]) for s in segments)), r"[\d.-]+" => "")),
+            "text" => strip(replace(join((strip(s["text"]) for s in segments), " "), r"[\d.-]+" => "")),
         )
     end
 
@@ -216,7 +216,7 @@ md"
 3. `57`: timestamps are shifted starting from `3:32`, and text is wrong too
 4. `53`: timestamps are shifted starting from `5:33`
 5. `47`: timestamps are shifted starting from `15:14`
-6. `45`: timestamps 
+6. `45`: timestamps
 7. `43`: timestamps
 8. `42`: timestamps
 "

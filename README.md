@@ -1,7 +1,7 @@
 # Al Ajwad
 
 ## Development Environment
-1. Download the [timestmaps](https://drive.google.com/drive/folders/15cu9rU46lkDog3NngJ_5LVQxxsyC6vlV?usp=sharing) or from [kaggle](https://www.kaggle.com/datasets/abdoeid/quran-com-signals-segment-level) tom `timestamps` dir. Your folder structure should look like this:
+1. Download the timestamps from [kaggle](https://www.kaggle.com/datasets/abdoeid/quran-com-signals-segment-level), then unzip and rename the output directory to `timestamps`. Your folder structure should look like this:
 ```
 .
 ├── AlAjwad
@@ -22,7 +22,6 @@
     ├── Mishari Rashid al-Afasy_Murattal.json
     ├── Mishari Rashid al-Afasy_Streaming.json
     ├── Mohamed Siddiq al-Minshawi_Murattal.json
-    ├── quran-com_timestamps.json
     └── Saud ash-Shuraim_Murattal.json
 ```
 
