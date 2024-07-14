@@ -1,3 +1,6 @@
 [submodule "whisper-quran-cli"]
 	path = whisper-quran-cli
 	url = https://github.com/OmarTariq612/whisper-quran-cli
+[submodule "Al-Ajwad.cpp"]
+	path = Al-Ajwad.cpp
+	url = https://github.com/ElGarash/Al-Ajwad.cpp.git
